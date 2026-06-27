@@ -1,0 +1,7 @@
+<Solution>
+  <Project Path="TaskExpenseTracker.API/TaskExpenseTracker.API.csproj" />
+  <Project Path="TaskExpenseTracker.Application/TaskExpenseTracker.Application.csproj" />
+  <Project Path="TaskExpenseTracker.Domain/TaskExpenseTracker.Domain.csproj" />
+  <Project Path="TaskExpenseTracker.Infrastructure/TaskExpenseTracker.Infrastructure.csproj" />
+  <Project Path="TaskExpenseTracker.Tests/TaskExpenseTracker.Tests.csproj" />
+</Solution>

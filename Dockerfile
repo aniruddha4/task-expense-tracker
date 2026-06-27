@@ -16,6 +16,6 @@ RUN dotnet publish TaskExpenseTracker.API/TaskExpenseTracker.API.csproj -c Relea
 FROM mcr.microsoft.com/dotnet/aspnet:10.0
 WORKDIR /app
 COPY --from=build /app .
-ENV ASPNETCORE_URLS=http://+:$PORT
-EXPOSE $PORT
+ENV ASPNETCORE_URLS=http://+:8080
+EXPOSE 8080
 ENTRYPOINT ["dotnet", "TaskExpenseTracker.API.dll"]
